@@ -1,0 +1,21 @@
+/* Swipeable Component Styles */
+.swipeable-container {
+  width: 100%;
+  max-width: 768px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.swipe-right {
+  transform: translateX(150px);
+  background-color: #d4edda; /* green for right swipe (bookmark) */
+}
+
+.swipe-left {
+  transform: translateX(-150px);
+  background-color: #f8d7da; /* red for left swipe (dismiss) */
+}
